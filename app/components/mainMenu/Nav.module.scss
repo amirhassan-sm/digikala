@@ -1,0 +1,57 @@
+
+ $navColor:rgb(98,102,114);
+
+
+
+.ul {
+display: flex;
+direction: rtl;
+}
+.mainContainer{
+    display: flex;
+justify-content: space-between;
+direction: rtl;
+
+}
+.rightContainer{
+    flex-basis: 90%; 
+    display: flex;
+
+}
+.leftContainer{flex-basis: 10%;}
+.ul{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.li {
+}
+.fli{
+    flex-basis: 15%;
+}
+
+.a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+}
+
+.fliIcon{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(26, 24, 37);
+}
+
+.fliName{
+    @extend .fliIcon;
+    
+}
+.fliLine{
+    @extend .fliIcon;
+    color: $navColor;
+    margin-right: 15px;
+   top: 0;
+
+    
+}

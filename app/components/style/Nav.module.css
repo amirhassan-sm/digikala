@@ -1,0 +1,30 @@
+.container{
+    position: absolute;
+z-index: 1;
+right: 60px;
+bottom: 20px;
+}
+
+.Mcontainer{
+    position: absolute;
+    z-index: 1;
+    right:20px;
+    bottom: 20px;
+
+}
+.Nav{
+    border-radius:50px;
+     background-color:white;
+     color:black;
+     font-size:30px;
+     font-weight: normal;
+
+}
+.RNav{
+    border-radius:50px;
+    background-color:white;
+    color:black;
+    font-size:30px;
+    font-weight: normal;
+
+}

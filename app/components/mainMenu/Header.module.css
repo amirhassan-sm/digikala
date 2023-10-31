@@ -1,0 +1,69 @@
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    flex-direction: row;
+    direction: ltr;
+
+
+}
+.rightContainer{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.leftContainer{
+    flex-basis: 35%;
+
+
+}
+.searchContainer{
+flex-basis: 80%;
+position: relative;
+
+}
+.search{
+    direction: rtl;
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(240,240,241);
+    color: rgb(129,135,152);
+    border: 0;
+    position: absolute;
+}
+.srlogo{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    top: 20px;
+    color: rgb(129,135,152);
+}
+.logo{
+    flex-basis: 15%;
+
+}
+.leftLogo{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.shop{
+    font-size: 25px;
+
+
+}
+.user{
+    font-size: 25px;
+
+}
+.line{
+    color: rgb(129,135,152)
+}
+
