@@ -14,7 +14,7 @@ const SevenIcons = ({ icons }) => {
             <div className={`${style.iconContainer}`}>
               <Link style={{textDecoration:"none"}} href={`/sevenIcons/${item.url}`}>
                 <div className={`${style.container}`}>
-                <div><Image width={60} height={50} src={`/images/${item.iconName}`} /></div>
+                <div><Image width={50} height={40} src={`/images/${item.iconName}`} /></div>
                 <p className={`${style.label}`}>{item.label}</p>
                 </div>
               </Link>

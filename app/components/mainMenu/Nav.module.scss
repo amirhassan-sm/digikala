@@ -1,57 +1,103 @@
-
- $navColor:rgb(98,102,114);
+$navColor: rgb(98, 102, 114);
 
 
 
 .ul {
-display: flex;
-direction: rtl;
-}
-.mainContainer{
     display: flex;
-justify-content: space-between;
-direction: rtl;
+    direction: rtl;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
 
 }
-.rightContainer{
-    flex-basis: 90%; 
+
+.rightContainer {
+    flex-basis: 90%;
     display: flex;
 
 }
-.leftContainer{flex-basis: 10%;}
-.ul{
-    flex-basis: 70%;
+
+.leftContainer {
+    flex-basis: 15%;
+    display: flex;
+}
+
+.ul {
+    flex-basis: 50%;
     display: flex;
     justify-content: space-between;
 }
-.li {
+.li{
+    @extend .a;
 }
-.fli{
+.li::after{
+    content:"";
+    display:flex;
+
+    width:0%;
+    background-color: red;
+    height: 2px;
+    transition:width 0.5s ;
+    
+
+}
+.li:hover::after{width:100%;}
+
+
+
+
+
+.fli {
+    @extend .li;
     flex-basis: 15%;
 }
 
 .a {
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: $navColor;
 
 }
 
-.fliIcon{
+.fliIcon {
     font-size: larger;
     font-weight: bolder;
     color: rgb(26, 24, 37);
 }
 
-.fliName{
+.fliName {
     @extend .fliIcon;
-    
+
 }
-.fliLine{
+
+.fliLine {
     @extend .fliIcon;
     color: $navColor;
     margin-right: 15px;
-   top: 0;
+    top: 0;
 
-    
+
+}
+
+.liName {
+    // font-size: small;
+    color: $navColor;
+
+}
+
+.liIcon {
+    font-weight: bolder;
+    color: $navColor;
+    margin: 2px;
+
+}
+
+.midNav {
+    color: $navColor;
+    justify-content: space-around;
+    flex-basis: 20%;
+    display: flex;
 }

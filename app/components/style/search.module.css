@@ -1,0 +1,10 @@
+.mainContainer{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+}
+.cardContainer{
+    flex-basis: 24%;
+
+}
