@@ -1,18 +1,17 @@
 import React from 'react'
-import styles from './Card.module.css'
+import styles from './SwCard.module.css'
 import Image from 'next/image'
 
-const Card = ({product}) => {
+const SwCard = ({product}) => {
   return (
     <div className={styles.mainContainer}>
         <div className={`${styles.incredibleOfferImageContainer}`}>
         {
-          product.incredibleOffers === true ? <Image className={`${styles.incredibleOfferImage}`} alt={product.name} src='/images/IncredibleOffer.svg' width={200} height={15} /> : null
+          product.incredibleOffers === true ? <Image  alt={product.name} src='/images/IncredibleOffer.svg' width={100} height={15} /> : null
         }
         </div>
        
-                <Image alt={product.name} src={product.indexImageUrl} width={100} height={100} />
-                <p align="justify" className={`${styles.productName}`}> {product.name.substring(0, 25)}{product.name.length > 25 ? "..." : null}</p>
+                <Image alt={product.name} src={product.indexImageUrl} width={80} height={80} />
 
                 {product.priceWithDiscount === 0 ? (
           <div className={`${styles.priceContainer}`}>
@@ -47,4 +46,4 @@ const Card = ({product}) => {
   )
 }
 
-export default Card
+export default SwCard

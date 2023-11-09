@@ -15,7 +15,7 @@ $navColor: rgb(98, 102, 114);
 }
 
 .rightContainer {
-    flex-basis: 90%;
+    flex-basis: 85%;
     display: flex;
 
 }
@@ -30,21 +30,26 @@ $navColor: rgb(98, 102, 114);
     display: flex;
     justify-content: space-between;
 }
-.li{
+
+.li {
     @extend .a;
 }
-.li::after{
-    content:"";
-    display:flex;
 
-    width:0%;
+.li::after {
+    content: "";
+    display: flex;
+
+    width: 0%;
     background-color: red;
     height: 2px;
-    transition:width 0.5s ;
-    
+    transition: width 0.5s;
+
 
 }
-.li:hover::after{width:100%;}
+
+.li:hover::after {
+    width: 100%;
+}
 
 
 
@@ -59,12 +64,15 @@ $navColor: rgb(98, 102, 114);
     text-decoration: none;
     display: inline-block;
     color: $navColor;
+    font-size: medium;
+    font-weight: normal;
+    padding: 1px;
 
 }
 
 .fliIcon {
-    font-size: larger;
-    font-weight: bolder;
+    font-size: medium;
+    font-weight: normal;
     color: rgb(26, 24, 37);
 }
 
@@ -83,13 +91,14 @@ $navColor: rgb(98, 102, 114);
 }
 
 .liName {
-    // font-size: small;
+    font-size: small;
     color: $navColor;
 
 }
 
 .liIcon {
-    font-weight: bolder;
+    font-size: medium;
+    font-weight: normal;
     color: $navColor;
     margin: 2px;
 
@@ -100,4 +109,5 @@ $navColor: rgb(98, 102, 114);
     justify-content: space-around;
     flex-basis: 20%;
     display: flex;
+
 }

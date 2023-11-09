@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import style from "./Nav.module.scss"
 import Link from 'next/link'
@@ -20,7 +21,8 @@ const Nav = () => {
         <div className={`${style.fli}`} >
           <span className={`${style.fliIcon}`}><IoReorderThreeSharp /></span>
           <span className={`${style.fliName}`}>دسته بندی کالا ها</span>
-          <span className={`${style.fliLine}`}>|</span></div>
+          <span className={`${style.fliLine}`}>|</span>
+          </div>
         <ul className={style.ul}>
           <li className={`${style.li}`}>
             <Link className={`${style.a}`} href={"#"}>
@@ -55,8 +57,8 @@ const Nav = () => {
         </ul>
         <div className={`${style.midNav}`} >
           <span>|</span>
-          <Link className={`${style.li}`} href={"#"}>سوالی دارید ؟</Link>
-          <Link className={`${style.li}`} href={"#"}> در دیجی کالا بفروشید! </Link>
+          <Link className={`${style.liName} ${style.a } ${style.li} `} href={"#"}>سوالی دارید ؟</Link>
+          <Link className={`${style.liName} ${style.a } ${style.li} `} href={"#"}> در دیجی کالا بفروشید! </Link>
 
         </div>
 
@@ -65,7 +67,7 @@ const Nav = () => {
       <div className={`${style.leftContainer}`}>
       <GoLocation className={`${style.liIcon}`}/>
 
-        <Link href={"#"} className={`${style.a}`}>لطفا شهر خود را انتخاب کنید</Link>
+        <Link href={"#"} className={`${style.liName } ${style.a } `}>لطفا شهر خود را انتخاب کنید</Link>
       </div>
 
 
