@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    direction: rtl;
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 47vh;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.direction {
+    direction: rtl;
+}
+
+.text {
+    font-size: larger;
+    margin-top: 5px;
+
+
+}
+
+.Ptext {
+    color: grey;
+    font-size: small;
+    margin-top: 5px;
+
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .container {
+        display: flex;
+        direction: rtl;
+        width: 90%;
+        border: 1px solid grey;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        height: 47vh;
+
+    }
+}

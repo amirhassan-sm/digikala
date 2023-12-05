@@ -1,4 +1,4 @@
-.headContainer{
+.headContainer {
     display: flex;
     justify-content: space-between;
     width: 98%;
@@ -8,45 +8,52 @@
 
 
 }
-.rightContainer{
+
+.rightContainer {
     flex-basis: 60%;
     display: flex;
     justify-content: space-between;
 
 }
-.leftContainer{
+
+.leftContainer {
     flex-basis: 35%;
 
 
 }
-.searchContainer{
-flex-basis: 80%;
-position: relative;
+
+.searchContainer {
+    flex-basis: 80%;
+    position: relative;
 
 }
-.search{
+
+.search {
     direction: rtl;
     width: 100%;
     margin-top: 5px;
     height: 40px;
     border-radius: 7px;
-    background-color: rgb(240,240,241);
-    color: rgb(129,135,152);
+    background-color: rgb(240, 240, 241);
+    color: rgb(129, 135, 152);
     border: 0;
     position: absolute;
 }
-.srlogo{
+
+.srlogo {
     position: absolute;
     right: 30px;
     top: 0;
     top: 20px;
-    color: rgb(129,135,152);
+    color: rgb(129, 135, 152);
 }
-.logo{
+
+.logo {
     flex-basis: 15%;
 
 }
-.leftLogo{
+
+.leftLogo {
     display: flex;
     justify-content: space-between;
     width: 30%;
@@ -54,16 +61,22 @@ position: relative;
     font-size: larger;
 
 }
-.shop{
+
+.shop {
     font-size: 25px;
+    cursor: pointer;
+    color: black !important;
 
 
 }
-.user{
+
+.user {
     font-size: 25px;
+    cursor: pointer;
+
 
 }
-.line{
-    color: rgb(129,135,152)
-}
 
+.line {
+    color: rgb(129, 135, 152)
+}

@@ -1,10 +1,9 @@
-import GET from "@/get/GET";
+import {GET} from "@/get/GET";
 import MainSlider from "./components/MainSlider";
 import SevenIcons from "./components/SevenIcons";
 import "./pageNormalize.css"
 import style from "./page.module.scss"
 import Curusel from "./components/swiper/Curusel";
-// import Card from "./components/Card";
 
 
 
@@ -17,8 +16,8 @@ export default async function Home() {
   const Iresponse = await GET("/SevenIcons")
   const Iresult = await Iresponse.json()
 
-  const Swpresponse=await GET("/products/incredibleOffers")
-  const Swpresult=await Swpresponse.json()
+  const Swpresponse = await GET("/products/incredibleOffers")
+  const Swpresult = await Swpresponse.json()
 
 
 
@@ -31,8 +30,10 @@ export default async function Home() {
         <SevenIcons icons={Iresult} />
       </div>
       <div>
-        <Curusel products={Swpresult}/>
+        <Curusel className={`${style.Curusel}`}  products={Swpresult} />
       </div>
+
+
 
 
     </div>

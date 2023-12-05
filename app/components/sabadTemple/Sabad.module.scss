@@ -1,0 +1,123 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.leftContainer {
+
+    flex-basis: 20%;
+
+}
+
+.rightContainer {
+    border: 1px solid grey;
+    flex-basis: 70%;
+    border-radius: 15px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.text {
+    font-size: large;
+
+}
+
+.TotalCount {
+    color: grey;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.product {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.6px solid grey;
+    border-radius: 15px;
+
+
+}
+
+.name {
+    color: grey;
+
+}
+
+.right {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.left {
+    flex-basis: 69%;
+
+
+
+}
+
+.discount {
+    font-size: smaller;
+    color: rgb(239, 64, 86);
+    margin: 15px;
+
+}
+
+.price {
+    font-weight: bolder;
+    margin: 10px;
+
+}
+
+.details {
+    border: 1px solid;
+    direction: rtl;
+    border: 0.6px solid grey;
+    border-radius: 15px;
+}
+
+.detailP {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.Tprice {
+    color: grey;
+    font-size: small;
+}
+
+.Pprice {
+    font-size: small;
+    font-weight: bolder;
+}
+
+.Dprice {
+    color: rgb(239, 64, 86);
+    font-size: small;
+}
+
+.order {
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgb(239, 64, 86);
+    height: 40px;
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width:90% ;
+
+
+
+}

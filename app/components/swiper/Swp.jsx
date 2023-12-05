@@ -7,33 +7,49 @@ import Slider from 'react-slick';
 import SwCard from '../card/SwCard';
 import NextArrow from './NextArrow';
 import PrevArrow from './PrevArrow';
+import { MdOutlineArrowCircleLeft } from "react-icons/md";
+import Link from 'next/link';
 
 const Swp = ({ products }) => {
     const settings = {
         dots: false,
         infinite: false,
-        speed: 500,
+        speed: 100,
         slidesToShow: 6,
         slidesToScroll: 1,
-        rtl:true,
-        nextArrow:<NextArrow/>,
-        prevArrow:<PrevArrow/>,
-        autoplay:true
+        rtl: true,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
+        autoplay: true
     }
 
 
     return (
-            <div  className={`${style.swiper}`}>
-                <Slider    className={`${style.slider}`} {...settings}>
-                    {products.map(item => {
-                        return (
-                            <div className={`${style.cardContainer}`}>
-                                <SwCard product={item} />
+        <div className={`${style.swiper}`}>
+            <Slider className={`${style.slider}`} {...settings}>
+                {products.map(item => {
+                    return (
+                        <div className={`${style.cardContainer}`}>
+                            <SwCard product={item} />
+
+                        </div>
+
+                    )
+                })}
+                <div className={style.cardContainer}>
+                    <div className={style.showAll}>
+                        <Link className={style.link} href={"/incOffers"}>
+                            <div >
+                                مشاهده همه
                             </div>
-                        )
-                    })}
-                </Slider>
-            </div>
+                            <div>
+                                < MdOutlineArrowCircleLeft className={style.arrow} />
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            </Slider>
+        </div>
 
 
     )

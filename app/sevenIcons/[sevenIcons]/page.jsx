@@ -1,5 +1,5 @@
 import Card from '@/app/components/card/Card'
-import GET from '@/get/GET'
+import {GET} from '@/get/GET'
 import React from 'react'
 
 const page = async (context) => {
@@ -9,7 +9,7 @@ const page = async (context) => {
     return (
         <div style={{display:"flex" ,flexWrap:"wrap"}}>
             {result.map(item=> <div style={{flexBasis:"19%"}}>
-                <Card  product={item}/>
+                <Card  product={item} />
             </div>)}
         </div>
     )

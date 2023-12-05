@@ -3,6 +3,7 @@ import React from 'react'
 import Swp from './Swp'
 import style from "./Curusel.module.scss"
 import Image from 'next/image'
+import Link from 'next/link'
 const Curusel = ({ products }) => {
     return (
 
@@ -19,7 +20,8 @@ const Curusel = ({ products }) => {
                 <div>
                     <Image src={"/images/box.png"} width={130} height={100} />
                 </div>
-                <div  className={`${style.showAll}`}>مشاهده همه</div>
+
+                <Link className={`${style.link}`} href={"/incOffers"}> <div className={`${style.showAll}`}>مشاهده همه</div></Link>
             </div>
 
         </div>

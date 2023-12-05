@@ -1,10 +1,38 @@
-.swiper{
+.swiper {
     width: 99%;
     height: auto;
     margin: auto;
 }
-.cardContainer{
+
+.cardContainer {
     width: 15%;
 }
 
+.showAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    background-color: rgb(255, 255, 255);
+    border: 0.7px solid rgb(218, 218, 218);
+    width: 82.5%;
+    height: 250px;
+    text-align: right;
+    padding: 0 15px;
+    overflow: hidden;
+    direction: rtl;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.arrow{
+    font-size: 50px;
+    color: rgb(0, 98, 255);
+    cursor: pointer;
+
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

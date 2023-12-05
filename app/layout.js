@@ -1,9 +1,10 @@
-import GET from "@/get/GET";
+import { GET } from "@/get/GET";
 import Topkala from "./components/Topkala";
 import MainMenu from "./components/mainMenu/MainMenu";
 import "./pageNormalize.css"
 import localFont from 'next/font/local'
-import ReduxProvider from "./Store/reduxProvider";
+import Provided from "@/Store/Provided";
+import Footer from "./components/Footer/Footer";
 
 const myfont = localFont({
   src: [
@@ -19,18 +20,22 @@ export default async function RootLayout({ children }) {
   const Tresult = await Tresponse.json()
   return (
 
+
     <html lang="en" className={myfont.className}>
 
       <body >
-        <div>
+        <Provided>
+
           <Topkala url={Tresult} />
-        </div>
-        <div>
           <MainMenu />
-        </div>
-        <ReduxProvider>{children}</ReduxProvider>
+          {children}
+          <Footer />
+        </Provided>
+
       </body>
+
     </html>
+
 
 
   )

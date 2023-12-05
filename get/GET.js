@@ -1,6 +1,9 @@
 import config from "../configuration/configure.json"
-const GET=(url)=>{
+ export const GET=(url)=>{
     return fetch(`${config.API}${url}`)
 
 }
-export default GET
+
+
+
+

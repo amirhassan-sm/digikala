@@ -32,18 +32,16 @@ const Header = () => {
 
 
 
-    const goShop = () => {
-        route.push("/checkout/cart")
-    }
+ 
     return (
         <div className={`${style.headContainer}`}>
 
             <div className={`${style.leftContainer}`}>
 
                 <div className={`${style.leftLogo}`}>
-                    <div onClick={goShop} className={`${style.shop}`}><FiShoppingCart /></div>
+                    <Link href={"/checkout/cart"}  className={`${style.shop}`}><FiShoppingCart /></Link>
                     <div className={`${style.line}`}>|</div>
-                    <div className={`${style.user}`}><CiUser /></div>
+                    <Link href={"/Auth/loggin"} className={`${style.user} ${style.leftLogo}`}><CiUser /></Link>
                 </div>
 
             </div>

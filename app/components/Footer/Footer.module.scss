@@ -1,0 +1,41 @@
+.mainBody {
+    direction: rtl;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.matn {
+    font-size: small;
+}
+
+.footer {
+    margin-top:  15px; ;
+    display: flex;
+    justify-content: space-between;
+}
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    
+}
+.footerTxt{
+    color: rgb(105, 99, 99);
+    margin: 8px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    color: grey;
+}
