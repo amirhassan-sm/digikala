@@ -1,7 +1,7 @@
 
 const page = () => {
   return (
-    <div>
+    <div style={{display:"flex",justifyContent:"center", alignItems:"center",margin:"180px"}}>
         به سایت دیجی کالا خوش امدید.
       
     </div>

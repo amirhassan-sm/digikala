@@ -9,22 +9,26 @@
     align-items: center;
 }
 
-$color:rgb(211,47,47);
+$color: rgb(211, 47, 47);
 
 .pluse {
     color: $color;
     font-weight: bolder;
     font-size: larger;
+    cursor: pointer;
 
 }
 
 .minus {
     @extend .pluse;
 
+
 }
 
 .numb {
     @extend .pluse;
+    cursor: auto;
+
 
 }
 

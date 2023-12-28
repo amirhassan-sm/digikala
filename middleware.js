@@ -26,7 +26,7 @@ export default function middleware(request) {
 
 
     else {
-        return NextResponse.rewrite(`${request.nextUrl.origin}/Auth/loggin`)
+        return NextResponse.rewrite(`${request.nextUrl.origin}/Auth/signup`)
     }
 
 

@@ -7,7 +7,6 @@ import Image from "next/image";
 import Change from "../cart/Change";
 const Sabad = () => {
     const data = useSelector(state => state.shoppingCart)
-    console.log(data)
 
     return (
         <div>

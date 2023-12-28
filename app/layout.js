@@ -13,6 +13,10 @@ const myfont = localFont({
       size: "1px"
     }]
 })
+export const metadata={
+  title:"digikala",
+}
+
 
 
 export default async function RootLayout({ children }) {
@@ -29,6 +33,7 @@ export default async function RootLayout({ children }) {
           <Topkala url={Tresult} />
           <MainMenu />
           {children}
+          <br/><br/><br/><br/><br/>
           <Footer />
         </Provided>
 
