@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/sevenIcons/[sevenIcons]/page": "app/sevenIcons/[sevenIcons]/page.js",
+  "/search/[url]/page": "app/search/[url]/page.js",
+  "/not-found": "app/not-found.js",
+  "/checkout/cart/page": "app/checkout/cart/page.js",
+  "/Auth/loggin/page": "app/Auth/loggin/page.js",
+  "/incOffers/page": "app/incOffers/page.js"
+}

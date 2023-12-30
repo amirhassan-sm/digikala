@@ -1,0 +1,87 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/loading.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/sevenIcons/[sevenIcons]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/sevenIcons/[sevenIcons]/page.css",
+      "static/chunks/app/sevenIcons/[sevenIcons]/page.js"
+    ],
+    "/sevenIcons/[sevenIcons]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/sevenIcons/[sevenIcons]/loading.js"
+    ],
+    "/search/[url]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/search/[url]/page.css",
+      "static/chunks/app/search/[url]/page.js"
+    ],
+    "/search/[url]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/search/[url]/error.js"
+    ],
+    "/search/[url]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/search/[url]/loading.js"
+    ],
+    "/Auth/signup/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Auth/signup/page.css",
+      "static/chunks/app/Auth/signup/page.js"
+    ],
+    "/checkout/cart/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/checkout/cart/loading.js"
+    ],
+    "/checkout/cart/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/checkout/cart/page.css",
+      "static/chunks/app/checkout/cart/page.js"
+    ],
+    "/Auth/loggin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Auth/loggin/page.css",
+      "static/chunks/app/Auth/loggin/page.js"
+    ],
+    "/incOffers/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/incOffers/page.css",
+      "static/chunks/app/incOffers/page.js"
+    ],
+    "/incOffers/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/incOffers/loading.js"
+    ]
+  }
+}

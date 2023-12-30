@@ -1,0 +1,181 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/components/sabadTemple/Empty.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Empty_container__JGXwh {
+  display: flex;
+  direction: rtl;
+  width: 70%;
+  border: 1px solid grey;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 47vh;
+}
+
+.Empty_content__srKW4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.Empty_direction__c0erA {
+  direction: rtl;
+}
+
+.Empty_text__40cE3 {
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.Empty_Ptext__RkoBW {
+  color: grey;
+  font-size: small;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Empty_container__JGXwh {
+    display: flex;
+    direction: rtl;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 47vh;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/components/cart/Change.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Change_container__DohV3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: 40px;
+  color: antiquewhite;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.Change_pluse__LgJkM, .Change_remove__iwORb, .Change_numb__eRNLd, .Change_minus__qDymi {
+  color: rgb(211, 47, 47);
+  font-weight: bolder;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.Change_numb__eRNLd {
+  cursor: auto;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/components/sabadTemple/Sabad.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Sabad_mainContainer__ERVh3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Sabad_leftContainer__dh0ei {
+  flex-basis: 20%;
+}
+
+.Sabad_rightContainer__5lB2A {
+  border: 1px solid grey;
+  flex-basis: 70%;
+  border-radius: 15px;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Sabad_text__NQGUf {
+  font-size: large;
+}
+
+.Sabad_TotalCount__ulaJq {
+  color: grey;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.Sabad_product__xMCx_ {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.6px solid grey;
+  border-radius: 15px;
+}
+
+.Sabad_name__PR_IX {
+  color: grey;
+}
+
+.Sabad_right__czRRI {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.Sabad_left__e9Wuw {
+  flex-basis: 69%;
+}
+
+.Sabad_discount__0NcMc {
+  font-size: smaller;
+  color: rgb(239, 64, 86);
+  margin: 15px;
+}
+
+.Sabad_price__X3VQm {
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.Sabad_details__Yfr_C {
+  border: 1px solid;
+  direction: rtl;
+  border: 0.6px solid grey;
+  border-radius: 15px;
+}
+
+.Sabad_detailP__90ylv {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.Sabad_Tprice__xh3Rf {
+  color: grey;
+  font-size: small;
+}
+
+.Sabad_Pprice__nzDfP {
+  font-size: small;
+  font-weight: bolder;
+}
+
+.Sabad_Dprice__A49OI {
+  color: rgb(239, 64, 86);
+  font-size: small;
+}
+
+.Sabad_order__3Y44_ {
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: rgb(239, 64, 86);
+  height: 40px;
+  color: aliceblue;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 90%;
+}

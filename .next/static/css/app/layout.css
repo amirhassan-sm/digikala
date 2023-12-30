@@ -1,0 +1,292 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/components/Footer/Footer.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_mainBody__OKwW8 {
+  direction: rtl;
+}
+
+.Footer_content__lzH__ {
+  display: flex;
+  flex-direction: row;
+}
+
+.Footer_matn__plQGP {
+  font-size: small;
+}
+
+.Footer_footer__1yt0L {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer_footerContent__2cG8k {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+
+.Footer_footerTxt__EEZui {
+  color: rgb(105, 99, 99);
+  margin: 8px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.Footer_logoContainer__Ih8mY {
+  display: flex;
+  flex-direction: row;
+}
+
+.Footer_logo__9030Y {
+  font-size: 40px;
+  font-weight: bolder;
+  color: grey;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/mainMenu/Header.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_headContainer__FWpEe {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    flex-direction: row;
+    direction: ltr;
+
+
+}
+
+.Header_rightContainer__PVmIo {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Header_leftContainer__xxxg9 {
+    flex-basis: 35%;
+
+
+}
+
+.Header_searchContainer__NoAsA {
+    flex-basis: 80%;
+    position: relative;
+
+}
+
+.Header_search__Nz3Rs {
+    direction: rtl;
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 241);
+    color: rgb(129, 135, 152);
+    border: 0;
+    position: absolute;
+}
+
+.Header_srlogo__MV_YL {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    top: 20px;
+    color: rgb(129, 135, 152);
+}
+
+.Header_logo__ZbieC {
+    flex-basis: 15%;
+
+}
+
+.Header_leftLogo__Z6LaP {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.Header_shop__8MoVr {
+    font-size: 25px;
+    cursor: pointer;
+    color: black !important;
+
+
+}
+
+.Header_user__yTxrJ {
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+.Header_line__rqgzH {
+    color: rgb(129, 135, 152)
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/components/mainMenu/Nav.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Nav_ul__9nkg_ {
+  display: flex;
+  direction: rtl;
+}
+
+.Nav_mainContainer__h0DLn {
+  display: flex;
+  justify-content: space-between;
+  direction: rtl;
+}
+
+.Nav_rightContainer__rnrgs {
+  flex-basis: 85%;
+  display: flex;
+}
+
+.Nav_leftContainer__9DEzf {
+  flex-basis: 15%;
+  display: flex;
+}
+
+.Nav_ul__9nkg_ {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav_li__ywUf7::after, .Nav_fli__zJmyb::after {
+  content: "";
+  display: flex;
+  width: 0%;
+  background-color: red;
+  height: 2px;
+  transition: width 0.5s;
+}
+
+.Nav_li__ywUf7:hover::after, .Nav_fli__zJmyb:hover::after {
+  width: 100%;
+}
+
+.Nav_fli__zJmyb {
+  flex-basis: 15%;
+}
+
+.Nav_a__FuEYW, .Nav_li__ywUf7, .Nav_fli__zJmyb {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(98, 102, 114);
+  font-size: medium;
+  font-weight: normal;
+  padding: 1px;
+}
+
+.Nav_fliIcon__f5O6s, .Nav_fliLine__gjTv1, .Nav_fliName__8CWVK {
+  font-size: medium;
+  font-weight: normal;
+  color: rgb(26, 24, 37);
+}
+
+.Nav_fliLine__gjTv1 {
+  color: rgb(98, 102, 114);
+  margin-right: 15px;
+  top: 0;
+}
+
+.Nav_liName__XMKoz {
+  font-size: small;
+  color: rgb(98, 102, 114);
+}
+
+.Nav_liIcon__wF_0P {
+  font-size: medium;
+  font-weight: normal;
+  color: rgb(98, 102, 114);
+  margin: 2px;
+}
+
+.Nav_midNav__eVU_3 {
+  color: rgb(98, 102, 114);
+  justify-content: space-around;
+  flex-basis: 20%;
+  display: flex;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/style/Topkala.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Topkala_container__QRXDq{
+    width: 100%;
+    height: 50px !important ;
+
+}
+.Topkala_img__szWjl{
+    width: 100%;
+    height: 50px !important;
+
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/pageNormalize.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+
+ html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow:  visible;
+	scroll-snap-type: none;
+	scrollbar-arrow-color: aliceblue;
+	/* scroll-bar */
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app\\layout.js","import":"","arguments":[{"src":[{"path":"../public/fonts/IRANSansWeb.woff","size":"1px"}]}],"variableName":"myfont"} ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__myfont_00d9c4';
+src: url(/_next/static/media/485898fea1b6151a-s.p.woff) format('woff');
+font-display: swap;
+}@font-face {font-family: '__myfont_Fallback_00d9c4';src: local("Arial");ascent-override: 96.08%;descent-override: 56.05%;line-gap-override: 0.00%;size-adjust: 108.60%
+}.__className_00d9c4 {font-family: '__myfont_00d9c4', '__myfont_Fallback_00d9c4'
+}
+

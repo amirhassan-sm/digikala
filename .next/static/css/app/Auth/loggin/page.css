@@ -1,0 +1,36 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/Auth/loggin/page.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_mainContainer__KAAU_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_authContainer__iYv3x {
+  border: 1px solid rgb(210, 209, 209);
+  width: 30%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.page_Form__WJELF {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_btn__zysPW {
+  color: aliceblue;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(239, 64, 86);
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 15px;
+}
